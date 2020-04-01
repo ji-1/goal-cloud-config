@@ -3,9 +3,9 @@ zuul:
     member-service: 
       path: /member/**
       serviceId: member-service
-    auth-server:
+    auth-service:
       path: /auth/**
-      serviceId: auth-server 
+      serviceId: auth-service
       stripPrefix: false
       sensitiveHeaders: Cookie,Set-Cookie
 
