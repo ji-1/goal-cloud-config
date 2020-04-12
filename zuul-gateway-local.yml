@@ -1,11 +1,11 @@
-zuul:
-  routes:
-    member-service: 
-      path: /member/**
-      serviceId: member-service
-    auth-service:
-      path: /auth/**
-      serviceId: auth-service
-      stripPrefix: false
-      sensitiveHeaders: Cookie,Set-Cookie
-
+#zuul:
+#  routes:
+#    member-service:
+#      path: /member/**
+#      serviceId: member-service
+#    auth-service:
+#      path: /auth/**
+#      serviceId: auth-service
+#      stripPrefix: false
+#      sensitiveHeaders: Cookie,Set-Cookie
+#
